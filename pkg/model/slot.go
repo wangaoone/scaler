@@ -13,7 +13,7 @@ limitations under the License.
 
 package model
 
-import pb "github.com/AliyunContainerService/scaler/proto"
+import pb "scaler/proto"
 
 type Slot struct {
 	pb.Slot

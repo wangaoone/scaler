@@ -23,8 +23,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/AliyunContainerService/scaler/pkg/model"
-	pb "github.com/AliyunContainerService/scaler/proto"
+	"scaler/pkg/model"
+	pb "scaler/proto"
 )
 
 type PlatformClient struct {

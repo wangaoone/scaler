@@ -16,7 +16,7 @@ package scaler
 import (
 	"context"
 
-	pb "github.com/AliyunContainerService/scaler/proto"
+	pb "scaler/proto"
 )
 
 type Stats struct {

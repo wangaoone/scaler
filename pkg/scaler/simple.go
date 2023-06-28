@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/AliyunContainerService/scaler/pkg/config"
-	"github.com/AliyunContainerService/scaler/pkg/model"
-	"github.com/AliyunContainerService/scaler/pkg/platform_client"
-	pb "github.com/AliyunContainerService/scaler/proto"
 	"github.com/google/uuid"
+	"scaler/pkg/config"
+	"scaler/pkg/model"
+	"scaler/pkg/platform_client"
+	pb "scaler/proto"
 )
 
 type Simple struct {

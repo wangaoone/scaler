@@ -17,7 +17,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/AliyunContainerService/scaler/pkg/model"
+	"scaler/pkg/model"
 )
 
 type Client interface {

@@ -18,9 +18,9 @@ import (
 	"log"
 	"sync"
 
-	"github.com/AliyunContainerService/scaler/pkg/config"
-	"github.com/AliyunContainerService/scaler/pkg/model"
-	"github.com/AliyunContainerService/scaler/pkg/scaler"
+	"scaler/pkg/config"
+	"scaler/pkg/model"
+	"scaler/pkg/scaler"
 )
 
 type Manager struct {

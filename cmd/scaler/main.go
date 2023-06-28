@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/AliyunContainerService/scaler/pkg/server"
-	pb "github.com/AliyunContainerService/scaler/proto"
+	"scaler/pkg/server"
+	pb "scaler/proto"
 )
 
 func main() {

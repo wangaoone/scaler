@@ -16,7 +16,7 @@ package model
 import (
 	"time"
 
-	pb "github.com/AliyunContainerService/scaler/proto"
+	pb "scaler/proto"
 )
 
 type Meta struct {

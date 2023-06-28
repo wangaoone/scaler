@@ -20,10 +20,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/AliyunContainerService/scaler/pkg/config"
-	"github.com/AliyunContainerService/scaler/pkg/manager"
-	"github.com/AliyunContainerService/scaler/pkg/model"
-	pb "github.com/AliyunContainerService/scaler/proto"
+	"scaler/pkg/config"
+	"scaler/pkg/manager"
+	"scaler/pkg/model"
+	pb "scaler/proto"
 )
 
 type Server struct {

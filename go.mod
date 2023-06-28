@@ -1,4 +1,4 @@
-module github.com/AliyunContainerService/scaler
+module scaler
 
 go 1.20
 
